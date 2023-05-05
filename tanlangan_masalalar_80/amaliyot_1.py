@@ -56,8 +56,20 @@ def f73(n):
         p *= i
     return p
 
+def f73a(n):
+    if n == 4:
+        return 2
+    elif n == 3:
+        return 1
+    elif n == 2:
+        return 1
+    elif n == 1:
+        return 1
+    else:
+        return f73a(n - 4) * f73a(n - 2)
+
 def main():
-    pass
+    print(f73a(6))
 
 if __name__ == "__main__":
     main()
