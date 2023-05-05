@@ -1,10 +1,10 @@
 
 def f45(M):
-    kesuvchi = len(M)  # kesuvchi = 4
+    kesuvchi = len(M)
     rel = []
-    for i in range(len(M)):  # i = [0, 1, 2, 3]
+    for i in range(len(M)):
         A = []
-        for j in range(len(M)):  # j = [0, 1, 2, 3]
+        for j in range(len(M)):
             
             if j < kesuvchi:
                 A.append(M[i][j])
