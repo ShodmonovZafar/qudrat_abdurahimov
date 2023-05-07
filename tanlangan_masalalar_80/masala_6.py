@@ -22,3 +22,10 @@ def eratosfen_elagi(n):
         if asosiy[j]:
             rel.append(j)
     return rel
+
+
+def main():
+    print(eratosfen_elagi(80))
+
+if __name__ == "__main__":
+    main()
